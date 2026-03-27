@@ -17,33 +17,38 @@ body {
     text-align: center;
 }
 
-/* Encabezado (Hero) */
+/* Encabezado (Hero) - Fondo blanco para fusionarse con el logo */
 .hero {
-    background-color: #1a252f;
-    color: #fff;
+    background-color: #ffffff;
+    color: #1a252f;
     padding: 80px 0;
     text-align: center;
+    border-bottom: 2px solid #ecf0f1;
 }
 
 /* Estilos del logotipo para una integración cohesiva */
 .logo-solum {
-    max-width: 180px;
+    max-width: 280px;
     height: auto;
     display: block;
-    margin: 0 auto 25px auto;
-    opacity: 0.95;
-    border-radius: 4px;
+    margin: 0 auto 20px auto;
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     margin-top: 0;
+    color: #1a252f;
 }
 
+.hero p {
+    color: #555;
+}
+
+/* Botones - Ajustados al rojo/vino del logotipo */
 .btn {
     display: inline-block;
-    background: #f39c12;
+    background: #b32d2d; 
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -53,7 +58,7 @@ body {
 }
 
 .btn:hover {
-    background: #e67e22;
+    background: #8e2424;
 }
 
 /* Servicios */
@@ -69,7 +74,7 @@ body {
     border-radius: 5px;
     flex: 1;
     text-align: center;
-    border-top: 4px solid #f39c12;
+    border-top: 4px solid #1a252f; /* Azul marino del logo */
 }
 
 /* Cobertura y utilidades */
@@ -80,7 +85,7 @@ body {
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #1a252f;
     color: #fff;
     text-align: center;
     padding: 15px 0;
