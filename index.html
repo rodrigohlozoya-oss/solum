@@ -1,77 +1,55 @@
-/* Estilos generales */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solum | Construcción y Mantenimiento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 40px 0;
-}
+    <header class="hero">
+        <div class="container">
+            <h1>Solum</h1>
+            <p>Soluciones integrales y profesionales en construcción y mantenimiento.</p>
+            <a href="#contacto" class="btn">Solicitar Cotización</a>
+        </div>
+    </header>
 
-.text-center {
-    text-align: center;
-}
+    <section id="servicios" class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Construcción</h3>
+                <p>Ejecución y gestión de proyectos de obra civil con los más altos estándares de calidad.</p>
+            </div>
+            <div class="card">
+                <h3>Mantenimiento</h3>
+                <p>Mantenimiento preventivo y correctivo para instalaciones comerciales e industriales.</p>
+            </div>
+            <div class="card">
+                <h3>Gestión de Proyectos</h3>
+                <p>Supervisión detallada de presupuestos, tiempos y equipos de trabajo en sitio.</p>
+            </div>
+        </div>
+    </section>
 
-/* Encabezado (Hero) */
-.hero {
-    background-color: #1a252f;
-    color: #fff;
-    padding: 80px 0;
-    text-align: center;
-}
+    <section id="cobertura" class="bg-light">
+        <div class="container text-center">
+            <h2>Área de Operaciones</h2>
+            <p>Atendemos proyectos de manera ágil y eficiente en <strong>Querétaro, CDMX y el Estado de México</strong>.</p>
+        </div>
+    </section>
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
+    <section id="contacto" class="container text-center">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto en mente? Escríbenos para ponernos en contacto contigo.</p>
+        <p>Email: <a href="mailto:amon@solumco.com.mx"><strong>amon@solumco.com.mx</strong></a></p>
+    </section>
 
-.btn {
-    display: inline-block;
-    background: #f39c12;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-weight: bold;
-}
+    <footer>
+        <p>&copy; 2026 Solum. Todos los derechos reservados.</p>
+    </footer>
 
-.btn:hover {
-    background: #e67e22;
-}
-
-/* Servicios */
-.grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.card {
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    flex: 1;
-    text-align: center;
-    border-top: 4px solid #f39c12;
-}
-
-/* Cobertura y utilidades */
-.bg-light {
-    background: #ecf0f1;
-    padding: 20px 0;
-}
-
-/* Footer */
-footer {
-    background: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-}
+</body>
+</html>
