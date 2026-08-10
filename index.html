@@ -43,8 +43,8 @@
     border-bottom:1px solid var(--line);
   }
   .nav{display:flex;align-items:center;justify-content:space-between;height:68px;}
-  .brand{display:flex;align-items:center;gap:12px;font-family:'Barlow Semi Condensed';font-weight:700;font-size:1.35rem;letter-spacing:.12em;color:var(--navy);}
-  .brand img{height:34px;width:auto;border-radius:3px;}
+  .brand{display:inline-flex;align-items:baseline;gap:3px;font-family:'Barlow Semi Condensed';font-weight:800;font-size:1.55rem;letter-spacing:.22em;color:var(--navy);}
+  .brand-dot{width:7px;height:7px;background:var(--amber);border-radius:50%;display:inline-block;transform:translateY(-1px);}
   .nav-links{display:flex;gap:30px;align-items:center;}
   .nav-links a{font-size:.82rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);transition:color .2s;}
   .nav-links a:hover{color:var(--navy);}
@@ -183,10 +183,7 @@
 
 <header>
   <div class="wrap nav">
-    <a href="#top" class="brand">
-      <img src="https://rodrigohlozoya-oss.github.io/solum/logo-solum.jpeg" alt="Logotipo SOLUM" onerror="this.style.display='none'">
-      SOLUM
-    </a>
+    <a href="#top" class="brand">SOLUM<i class="brand-dot"></i></a>
     <nav class="nav-links" id="navlinks">
       <a href="#servicios">Servicios</a>
       <a href="#trayectoria">Trayectoria</a>
@@ -328,7 +325,7 @@
 
 <footer>
   <div class="wrap foot">
-    <span class="brand">SOLUM</span>
+    <span class="brand" style="color:#fff;">SOLUM<i class="brand-dot"></i></span>
     <span>Construcción / Mantenimiento — Afiliados a CMIC CDMX</span>
     <span>© 2026 SOLUM. Todos los derechos reservados.</span>
   </div>
